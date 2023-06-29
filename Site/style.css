@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+background-color: rgb(79, 0, 106);
+}
+
+#Barra-principal{
+    display: flex; 
+    background-color: #00618b;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    z-index: 1;
+    justify-content: space-between;
+    padding: 0.2vw;
+    padding-right: 2vw;
+}
+
+.barra-busca{
+    height: 25px;
+    width: 500px;
+    padding-left: 5px;
+    border-radius: 50px;
+    border: none;
+    margin-left: -200px;
+}
+
+.menu{
+    height: 30px;
+    width: 30px;
+}
+
+.icones{
+    display: flex;
+    padding-right: 10px;
+}
+
+.icones img{
+  display: flex;
+  margin-left: 40px;
+  height: 30px;
+  width: 30px;
+}
+
+
+.jogo{
+    width: 244px;
+    height: 390px;
+    border: solid;
+    margin-top: 100px;
+    color: black;
+}
+
+.periférico{
+    width: 244px;
+    height: 360px;
+}
+
+main{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    flex-direction: column;
+}
+
+.sessao1{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-right: 200px;
+padding-left: 200px;
+}
+
+
+.Console1{
+    border: solid;
+    margin-top: 100px;
+    color: black;
+}
+
+
+.jogo img{
+    width: 244px;
+    height: 360px;
+    /* margin-top: -14px; */
+}
+
+.Periférico1{
+    margin-top: 100px;
+}
+
+#Consoles2{
+    margin-top: 200px;
+    background-color: #0d72b9;
+    
+}
+
+.jogo h2{
+    /* margin-bottom: 20px; */
+    color: black;
+}
+
+h2{
+    color: black;
+}
+
+.Periférico1{
+    border: solid;
+    margin-top: 100px;
+    color: black;
+}
+
+.sessao2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.consoleimg img{
+    height: 300px;
+    width: 300px;
+}
+
+.consoleimg p{
+    margin-top: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+#Jogos2{
+    background-color: #0d72b9 ;
+}
+
+.sessao3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.jogosimg img{
+    height: 300px;
+    width: 300px;
+}
+
+.jogosimg p{
+    color: white;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.sessao_3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.imgjogos img{
+    height: 300px;
+    width: 300px;
+}
+
+.imgjogos p{
+    color: white;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+#Periférico2{
+    background-color: #0d72b9;
+}
+
+.sessao4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.periimg img{
+    height: 300px;
+    width: 300px;
+}
+
+.periimg p{
+    color: white;
+    margin-top: 5px;
+    font-size: 20px ;
+}
